@@ -1,0 +1,6 @@
+What is version control and why is it important?
+
+A version control system (VCS) keeps an eye on the changes made to a project. This project can be done
+by one person or a group. As changes are made to a project, a version control system keeps a 
+documented history of all changes and these changes can be retrieved at any time.
+A VCS docum
