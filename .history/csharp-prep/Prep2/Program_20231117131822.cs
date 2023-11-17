@@ -40,33 +40,19 @@ class Program
             letter = "F";
         }
 
-        // Stretch Challenge:
+        elif (percentage % 10) >= 7:
+    if letter == 'A':
+        additional = ''
+    else:
+        additional = '+'
 
-        if (letter == "F")
-        {
-            extras = "";
-        }
-        else if (percentage % 10 >= 7)
-        {
-            if (letter == "A")
-            {
-                extras = "";
-            }
-            else 
-            {
-                extras = "+";
-            }
-        }
-        else if (percentage % 10 < 3)
-        {
-            extras = "-";
-        }
-        else 
-        {
-            extras = "";
-        }
+elif (percentage % 10) < 3:
+    additional = '-'
+    
+else:
+    additional = ''
 
-        Console.WriteLine($"Your grade is: {letter}{extras}");
+        Console.WriteLine($"Your grade is: {letter}");
         Console.WriteLine();
 
         if (percentage >= 70)

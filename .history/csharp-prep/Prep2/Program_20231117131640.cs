@@ -10,8 +10,8 @@ class Program
         string userInput = Console.ReadLine();
         int percentage = int.Parse(userInput);
 
-        string letter = "";
-        string extras = "";
+        string letter = "";st
+
 
         if (percentage >= 90)
         {
@@ -40,33 +40,7 @@ class Program
             letter = "F";
         }
 
-        // Stretch Challenge:
-
-        if (letter == "F")
-        {
-            extras = "";
-        }
-        else if (percentage % 10 >= 7)
-        {
-            if (letter == "A")
-            {
-                extras = "";
-            }
-            else 
-            {
-                extras = "+";
-            }
-        }
-        else if (percentage % 10 < 3)
-        {
-            extras = "-";
-        }
-        else 
-        {
-            extras = "";
-        }
-
-        Console.WriteLine($"Your grade is: {letter}{extras}");
+        Console.WriteLine($"Your grade is: {letter}");
         Console.WriteLine();
 
         if (percentage >= 70)

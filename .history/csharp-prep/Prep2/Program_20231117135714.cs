@@ -11,7 +11,6 @@ class Program
         int percentage = int.Parse(userInput);
 
         string letter = "";
-        string extras = "";
 
         if (percentage >= 90)
         {
@@ -41,12 +40,13 @@ class Program
         }
 
         // Stretch Challenge:
+        string extras = "";
 
         if (letter == "F")
         {
             extras = "";
         }
-        else if (percentage % 10 >= 7)
+        else if ((percentage % 10 >= 7)
         {
             if (letter == "A")
             {
@@ -57,7 +57,7 @@ class Program
                 extras = "+";
             }
         }
-        else if (percentage % 10 < 3)
+        else if ((percentage % 10) < 3)
         {
             extras = "-";
         }

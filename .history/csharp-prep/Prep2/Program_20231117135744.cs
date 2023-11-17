@@ -11,7 +11,6 @@ class Program
         int percentage = int.Parse(userInput);
 
         string letter = "";
-        string extras = "";
 
         if (percentage >= 90)
         {
