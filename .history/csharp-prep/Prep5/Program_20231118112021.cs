@@ -35,15 +35,14 @@ class Program
         {
             Console.WriteLine($"{name}, the square of your favorite number is {square}");
         }
-        {
-            DisplayWelcome();
+        // {
+        //     DisplayWelcome();
+        //     string userName = PromptUserName();
+        //     int favNumber = PromptUserNumber();
+        //     int SquareNumber(int number);
+        //     DisplayResults(string name, int square);
 
-            string userName = PromptUserName();
-            int favNumber = PromptUserNumber();
-
-            int squareFavNumber = SquareNumber(favNumber);
-            DisplayResults(userName, squareFavNumber);
-        }
+        // }
     }
     
 }

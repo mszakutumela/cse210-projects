@@ -43,6 +43,7 @@ class Program
 
             int squareFavNumber = SquareNumber(favNumber);
             DisplayResults(userName, squareFavNumber);
+
         }
     }
     
