@@ -21,28 +21,14 @@ class Program
         {
             Console.Write("Please enter your favorite number: ");
             string userInput = Console.ReadLine();
-            int favNumber = int.Parse(userInput);
+            int fav = int.Parse(userInput);
             return favNumber;
         }
-        static int SquareNumber (int number)
-        {
-            int favNumber = PromptUserNumber();
-            int square = favNumber * favNumber;
-            return square;
-        }
 
-        static void DisplayResults (string name, int square)
-        {
-            Console.WriteLine($"{name}, the square of your favorite number is {square}");
-        }
-        {
-            DisplayWelcome();
-            string userName = PromptUserName();
-            int favNumber = PromptUserNumber();
-            int SquareNumber(int number);
-            DisplayResults(string name, int square);
 
-        }
+        static int SquareNumber ()
+
+        static void DisplayResults ()
+
     }
-    
 }

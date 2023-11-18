@@ -26,23 +26,13 @@ class Program
         }
         static int SquareNumber (int number)
         {
-            int favNumber = PromptUserNumber();
-            int square = favNumber * favNumber;
+            int square = number * number;
             return square;
         }
 
         static void DisplayResults (string name, int square)
         {
-            Console.WriteLine($"{name}, the square of your favorite number is {square}");
-        }
-        {
-            DisplayWelcome();
-            string userName = PromptUserName();
-            int favNumber = PromptUserNumber();
-            int SquareNumber(int number);
-            DisplayResults(string name, int square);
-
+            Console.WriteLine($"{name}, the square of your favorite number is {sqau}")
         }
     }
-    
 }

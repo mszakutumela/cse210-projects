@@ -39,7 +39,7 @@ class Program
             DisplayWelcome();
             string userName = PromptUserName();
             int favNumber = PromptUserNumber();
-            int SquareNumber(int number);
+            SquareNumber(int square);
             DisplayResults(string name, int square);
 
         }

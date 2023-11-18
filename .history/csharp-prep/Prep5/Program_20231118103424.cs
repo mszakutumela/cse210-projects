@@ -27,7 +27,7 @@ class Program
         static int SquareNumber (int number)
         {
             int favNumber = PromptUserNumber();
-            int square = favNumber * favNumber;
+            int square = favumber * number;
             return square;
         }
 
@@ -39,7 +39,7 @@ class Program
             DisplayWelcome();
             string userName = PromptUserName();
             int favNumber = PromptUserNumber();
-            int SquareNumber(int number);
+            int squareFavNumber = SquareNumber(int number);
             DisplayResults(string name, int square);
 
         }
