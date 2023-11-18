@@ -30,7 +30,7 @@ class Program
         }
 
         // 1. Compute the sum, or total, of the numbers in the list.
-        foreach (int numb in numbers)
+        foreach (int number in numbers)
         {
             sum += numb;
         }
@@ -45,10 +45,9 @@ class Program
         {
             if (numb > largestNumber)
             {
-                largestNumber = numb;
+
             }
         }
-        Console.WriteLine($"The largest number is: {largestNumber}");
     }   
 
 

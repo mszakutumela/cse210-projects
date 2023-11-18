@@ -45,10 +45,9 @@ class Program
         {
             if (numb > largestNumber)
             {
-                largestNumber = numb;
+                larg
             }
         }
-        Console.WriteLine($"The largest number is: {largestNumber}");
     }   
 
 

@@ -44,11 +44,7 @@ class Program
         foreach (int numb in numbers)
         {
             if (numb > largestNumber)
-            {
-                largestNumber = numb;
-            }
         }
-        Console.WriteLine($"The largest number is: {largestNumber}");
     }   
 
 

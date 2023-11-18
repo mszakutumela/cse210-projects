@@ -42,13 +42,7 @@ class Program
 
         // 3. Find the maximum, or largest, number in the list.
         foreach (int numb in numbers)
-        {
-            if (numb > largestNumber)
-            {
-                largestNumber = numb;
-            }
-        }
-        Console.WriteLine($"The largest number is: {largestNumber}");
+        
     }   
 
 

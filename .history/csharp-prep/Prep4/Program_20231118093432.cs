@@ -48,7 +48,6 @@ class Program
                 largestNumber = numb;
             }
         }
-        Console.WriteLine($"The largest number is: {largestNumber}");
     }   
 
 

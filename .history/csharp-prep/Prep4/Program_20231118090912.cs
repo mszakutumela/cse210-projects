@@ -10,7 +10,7 @@ class Program
         List<int> numbers = new List<int>();
         int number = 0;
         int sum = 0;
-        int largestNumber = 0;
+        float average = 0;
 
         Console.WriteLine("Enter a list of numbers, type 0 when finished.");
         Console.Write("Enter number: ");
@@ -40,16 +40,7 @@ class Program
          float average = sum / numbers.Count;
          Console.WriteLine($"The average is: {average}");
 
-        // 3. Find the maximum, or largest, number in the list.
-        foreach (int numb in numbers)
-        {
-            if (numb > largestNumber)
-            {
-                largestNumber = numb;
-            }
-        }
-        Console.WriteLine($"The largest number is: {largestNumber}");
-    }   
 
 
+    }
 }
