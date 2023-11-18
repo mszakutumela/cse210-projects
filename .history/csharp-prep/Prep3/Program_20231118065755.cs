@@ -40,8 +40,6 @@ class Program
             // int guessNumber = int.Parse(guessInput);
             guessNumber = int.Parse(Console.ReadLine());
 
-            guesses++;
-
             if (magicNumber > guessNumber)
             {
                 Console.WriteLine("Higher"); 
@@ -56,6 +54,7 @@ class Program
             }
             if (magicNumber == guessNumber)
             {
+                guesses++;
                 Console.WriteLine($"You have guessed {guesses} times.");
             }
         

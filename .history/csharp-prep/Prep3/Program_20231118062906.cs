@@ -6,16 +6,11 @@ class Program
     {
         Console.WriteLine("Hello Prep3 World!");
         Console.WriteLine();
-        // Console.Write("What is the magic number? ");
-        // string userInput = Console.ReadLine();
-        // int magicNumber = int.Parse(userInput);
-        // int magicNumber = int.Parse(Console.ReadLine());
-
-        Random randomGenerator = new Random();
-        int magicNumber = randomGenerator.Next(1,100);
+        Console.Write("What is the magic number? ");
+        string userInput = Console.ReadLine();
+        int magicNumber = int.Parse(userInput);
 
         int guessNumber = -1;
-        int guesses = 0;
 
         // Console.Write("What is your guess? ");
         // string guessInput = Console.ReadLine();
@@ -36,17 +31,14 @@ class Program
         while (guessNumber != magicNumber)
         {
             Console.Write("What is your guess? ");
-            // string guessInput = Console.ReadLine();
-            // int guessNumber = int.Parse(guessInput);
-            guessNumber = int.Parse(Console.ReadLine());
+            string guessInput = Console.ReadLine();
+            int guessNumber2 = int.Parse(guessInput2);
 
-            guesses++;
-
-            if (magicNumber > guessNumber)
+            if (magicNumber > guessNumber2)
             {
                 Console.WriteLine("Higher"); 
             }
-            else if (magicNumber < guessNumber)
+            else if (magicNumber < guessNumber2)
             {
                 Console.WriteLine("Lower");
             }
@@ -54,11 +46,6 @@ class Program
             {
                 Console.WriteLine("You guessed it!");
             }
-            if (magicNumber == guessNumber)
-            {
-                Console.WriteLine($"You have guessed {guesses} times.");
-            }
-        
         }
     }
 }

@@ -15,7 +15,7 @@ class Program
         int magicNumber = randomGenerator.Next(1,100);
 
         int guessNumber = -1;
-        int guesses = 0;
+        int gue
 
         // Console.Write("What is your guess? ");
         // string guessInput = Console.ReadLine();
@@ -40,8 +40,6 @@ class Program
             // int guessNumber = int.Parse(guessInput);
             guessNumber = int.Parse(Console.ReadLine());
 
-            guesses++;
-
             if (magicNumber > guessNumber)
             {
                 Console.WriteLine("Higher"); 
@@ -54,11 +52,7 @@ class Program
             {
                 Console.WriteLine("You guessed it!");
             }
-            if (magicNumber == guessNumber)
-            {
-                Console.WriteLine($"You have guessed {guesses} times.");
-            }
-        
+            gue
         }
     }
 }
