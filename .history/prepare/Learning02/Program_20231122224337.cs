@@ -33,8 +33,7 @@ class Program
         // job2.DisplayJobDetails();
 
         // Console.WriteLine(resume1._jobs[0]._jobTitle);
-
-        resume1.DisplayResume();
+        
 
     }
 }

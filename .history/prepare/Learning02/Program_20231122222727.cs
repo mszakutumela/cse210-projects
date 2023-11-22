@@ -24,17 +24,14 @@ class Program
         // Console.WriteLine(job2._companyName);
 
         Resume resume1 = new Resume();
-        resume1._personName = "Ayanda Ndlovu";
-
         resume1._jobs.Add(job1);
         resume1._jobs.Add(job2);
 
         // job1.DisplayJobDetails();
         // job2.DisplayJobDetails();
 
-        // Console.WriteLine(resume1._jobs[0]._jobTitle);
+        Console.WriteLine(resume1._jobs[0])
 
-        resume1.DisplayResume();
 
     }
 }

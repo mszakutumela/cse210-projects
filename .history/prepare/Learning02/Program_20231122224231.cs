@@ -25,7 +25,6 @@ class Program
 
         Resume resume1 = new Resume();
         resume1._personName = "Ayanda Ndlovu";
-
         resume1._jobs.Add(job1);
         resume1._jobs.Add(job2);
 
@@ -34,7 +33,6 @@ class Program
 
         // Console.WriteLine(resume1._jobs[0]._jobTitle);
 
-        resume1.DisplayResume();
 
     }
 }
