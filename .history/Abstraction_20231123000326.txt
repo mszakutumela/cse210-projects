@@ -1,0 +1,3 @@
+What is abstraction and why is it important?
+
+Abstraction is a method that simplifies difficult 

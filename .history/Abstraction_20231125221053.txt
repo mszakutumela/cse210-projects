@@ -1,0 +1,5 @@
+What is abstraction and why is it important?
+
+Abstraction is a method that simplifies difficult ideas. In the abstraction method, certain 
+features are eliminated from an object, leaving behind the vital ones. Abstraction divides
+functions into vari

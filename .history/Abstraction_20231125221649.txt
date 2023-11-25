@@ -1,0 +1,7 @@
+What is abstraction and why is it important?
+
+Abstraction is a method that simplifies difficult ideas. In the abstraction method, certain 
+features are eliminated from an object, leaving behind the vital ones. Abstraction divides
+functions into various objects.
+An example of an abstraction is the print function in Python. The print fuction can be used 
+within another function

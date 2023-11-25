@@ -1,0 +1,17 @@
+What is abstraction and why is it important?
+
+Abstraction is a method that simplifies difficult ideas. In the abstraction method, certain 
+features are eliminated from an object, leaving behind the vital ones. Abstraction divides
+functions into various objects, like classes and methods. In this way the developer can reuse
+these classes and methods in order to achieve the desired outpu
+
+An example of an abstraction is the print function in Python. The print fuction can be used 
+within another function to create another abstraction, which can be a process grouping
+abstractions. This is how social media platforms like Facebook is written.
+
+An example of abstraction from the program I wrote:
+
+public void DisplayJobDetails()
+    {
+        Console.WriteLine($"{_jobTitle} ({_companyName}) {_startYear}-{_endYear}");
+    }
