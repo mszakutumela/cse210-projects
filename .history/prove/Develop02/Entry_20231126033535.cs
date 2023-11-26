@@ -6,7 +6,8 @@ public class Entry
 
     public void Display()
     {
-        Console.WriteLine($"{_date}: - Prompt: {_promptText}?");
+        Console.WriteLine($"{_jobTitle} ({_companyName}) {_startYear}-{_endYear}");
+
     }
 
 }
