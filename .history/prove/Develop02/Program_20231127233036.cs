@@ -1,5 +1,4 @@
 using System;
-using System.IO;
 
 class Program
 {
@@ -12,7 +11,6 @@ class Program
         Console.WriteLine("Please select one of the following choices: ");
 
         List<string> menus = new List<string>();
-        menus.Add(" ");
         menus.Add("Write entry");
         menus.Add("Display entry");
         menus.Add("Load entry");
@@ -22,7 +20,9 @@ class Program
         // Console.WriteLine(menus.Count);
         // choice = 0;
 
-        // Console.WriteLine("Please select one of the following choices: ");
+        Console.Write("Which option do you choose? ");
+             string userChoice = Console.ReadLine();
+             int choice = int.Parse(userChoice);
         for (int i = 1; i < menus.Count; i++)
         {
              string menu = menus[i];
@@ -30,8 +30,9 @@ class Program
             //  Console.WriteLine(menus[i]);             
         }
 
-        Console.Write("Which option do you choose? ");
-        string userChoice = Console.ReadLine();
-        int choice = int.Parse(userChoice);    
+        // Console.Write("Which option do you choose? ");
+        // string userChoice = Console.ReadLine();
+        // int choice = int.Parse(userChoice);    
     }
+
 }

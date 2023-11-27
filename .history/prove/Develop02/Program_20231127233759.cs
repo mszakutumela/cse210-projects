@@ -23,15 +23,15 @@ class Program
         // choice = 0;
 
         // Console.WriteLine("Please select one of the following choices: ");
-        for (int i = 1; i < menus.Count; i++)
+        for (int i = 0+1; i < menus.Count; i++)
         {
              string menu = menus[i];
              Console.WriteLine($"{i}. {menu}");
             //  Console.WriteLine(menus[i]);             
         }
 
-        Console.Write("Which option do you choose? ");
-        string userChoice = Console.ReadLine();
-        int choice = int.Parse(userChoice);    
+        // Console.Write("Which option do you choose? ");
+        // string userChoice = Console.ReadLine();
+        // int choice = int.Parse(userChoice);    
     }
 }
