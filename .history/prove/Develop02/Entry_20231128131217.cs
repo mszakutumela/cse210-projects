@@ -7,9 +7,6 @@ public class Entry
     public string _entryText;
     
     public Entry()
-    {
-
-    }
     
     public void DisplayJournalDetails()
     {

@@ -6,11 +6,7 @@ public class Entry
     public string _promptText;
     public string _entryText;
     
-    public Entry()
-    {
-
-    }
-    
+    public Entry
     public void DisplayJournalDetails()
     {
         Console.WriteLine($"Date: {_dateTime} - Prompt: {_promptText}?");
