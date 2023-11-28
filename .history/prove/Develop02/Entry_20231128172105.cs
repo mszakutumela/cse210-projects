@@ -14,7 +14,7 @@ public class Entry
 
     public void GetPrompt()
     {
-        _promptText = GetRandomPrompt();
+        _promptText
     }
 
     public void GetUserResponse()

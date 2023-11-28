@@ -2,6 +2,7 @@ using System;
 
 public class Entry
 {
+    public GetRandomPrompt promptGenerator
     public string _date;
     public string _promptText;
     public string _entryText;
@@ -12,9 +13,7 @@ public class Entry
         _date = theCurrentTime.ToShortDateString();
     }
 
-    public void GetPrompt()
-    {
-        _promptText = GetRandomPrompt();
+    publ
     }
 
     public void GetUserResponse()
