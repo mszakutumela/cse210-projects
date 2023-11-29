@@ -18,16 +18,10 @@ class Program
 // 6. Test your class by returning to the Main method and creating a new MathAssignment object and set 
 // its values. Make sure to test both the GetSummary() and the GetHomeworkList() methods.
         MathAssignment assignment2 = new MathAssignment("Roberto Rodriguez", "Fractions", "7.3", "8-19");
-        Console.WriteLine(assignment2.GetSummary());
-        Console.WriteLine(assignment2.GetHomeworkList());
-        Console.WriteLine();
+        Console.WriteLine
 
-// Step 5: Create the WritingAssignment class
-// 6. Return to Main and test your new class.
-        WritingAssignment assignment3 = new WritingAssignment("Mary Waters", "European History", "The Cause of World War II");
-        Console.WriteLine(assignment3.GetSummary());
-        Console.WriteLine(assignment3.GetWritingInformation());
-        Console.WriteLine();
-        
+
+
+
     }
 }

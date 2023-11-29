@@ -28,6 +28,5 @@ class Program
         Console.WriteLine(assignment3.GetSummary());
         Console.WriteLine(assignment3.GetWritingInformation());
         Console.WriteLine();
-        
-    }
+            }
 }
