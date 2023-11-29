@@ -12,11 +12,7 @@ class Program
 // 2. Create a Square instance, call the GetColor() and GetArea() 
 // methods and make sure they return the values you expect.
 
-        Square squareArea = new Square("yellow", 3);
-        string color = squareArea.GetColor();
-        double area = squareArea.GetArea();
-        Console.WriteLine($"The {color} shape has an area of {area}");
-
+        Square squareArea 
 
     }
 }

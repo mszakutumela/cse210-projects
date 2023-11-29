@@ -13,10 +13,7 @@ class Program
 // methods and make sure they return the values you expect.
 
         Square squareArea = new Square("yellow", 3);
-        string color = squareArea.GetColor();
-        double area = squareArea.GetArea();
-        Console.WriteLine($"The {color} shape has an area of {area}");
-
+        string color = squareArea.
 
     }
 }

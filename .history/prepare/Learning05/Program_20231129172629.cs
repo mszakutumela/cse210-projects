@@ -14,8 +14,7 @@ class Program
 
         Square squareArea = new Square("yellow", 3);
         string color = squareArea.GetColor();
-        double area = squareArea.GetArea();
-        Console.WriteLine($"The {color} shape has an area of {area}");
+        double area = aqua
 
 
     }
