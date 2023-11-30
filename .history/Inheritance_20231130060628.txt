@@ -1,0 +1,32 @@
+What is inheritance and why is it important?
+
+Inheritance is like a parent child relationship. A daughter may inherited
+certain physical features or personality traits from their mother. The parent
+class whose attributes and methods are inherited is called the base or super class. 
+Inheritance is a very important and useful 
+
+
+
+
+
+
+
+An example of inheritance from the program I wrote:
+
+public class MathAssignment : Assignment
+{
+    private string _textbookSection;
+    private string _problems;
+
+    public MathAssignment(string studentName, string assignmentTopic, string textbookSection, string problems) : base(studentName, assignmentTopic)
+    {
+        _textbookSection = textbookSection;
+        _problems = problems;
+    }
+    
+    public string GetHomeworkList()
+    {
+        return $"Section {_textbookSection} Problems {_problems}";
+    }
+    
+}

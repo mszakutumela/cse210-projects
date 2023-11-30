@@ -1,0 +1,9 @@
+What is inheritance and why is it important?
+
+
+
+
+
+
+
+An example of encapsulation from the program I wrote:
