@@ -6,14 +6,17 @@ sounds is like a family. Through the principle of Inheritance a family is
 formed where we have a parent class and a child classes. Polymorphism, like
 Inheritance is also a very important principle when it comes to object-oriented 
 programming.
-Polymorphism gives the developer the ability to utilise methods from Inheritance
-to complete various responsibilities. In this case the developer is able to use the 
-same name method in various ways. Polymorphism helps a function to behave differently
-for different situations. It helps the developer to reuse a method in many different 
-ways. A good example is found in method overriding. Method overriding is when a child
-class overrrides or changes the behavior of a method that was inherited from a parent 
-class. In the original method within the parent class the term virtual is used. In 
-the child class where the method is overridden, the term override is used.
+Polymorphism is able to 
+
+
+
+
+
+
+
+
+
+
 
 An example of polymorphism from the program I wrote:
 
@@ -36,7 +39,7 @@ public class Shape
         _color = color;
     }
 
-    public virtual double GetArea() (this is the main example, where vitual is used)
+    public virtual double GetArea()
     {
         return 0;
     }
@@ -51,7 +54,7 @@ public class Square : Shape
         _side = side;
     }
 
-    public override double GetArea() (this is the main example, where override is used)
+    public override double GetArea()
     {
         return _side * _side;
     }

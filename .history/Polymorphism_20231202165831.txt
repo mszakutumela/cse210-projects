@@ -1,0 +1,57 @@
+What is polymorphism and why is it important?
+
+The skill of one line of code having the ability to take on diverse actions
+at once, depenidng on the framework is called, Polymorphism. Polymorphism 
+sounds like an extended family relative. The family relative
+ to 
+
+
+
+
+
+
+
+
+
+
+An example of polymorphism from the program I wrote:
+
+public class Shape
+{
+    protected string _color;
+
+    public string GetColor()
+    {
+        return _color;
+    }
+
+    public void SetColor(string color)
+    {
+        _color = color;
+    }
+
+    public Shape(string color)
+    {
+        _color = color;
+    }
+
+    public virtual double GetArea()
+    {
+        return 0;
+    }
+}
+
+public class Square : Shape
+{
+    private double _side;
+
+    public Square(string color, double side) : base (color)
+    {
+        _side = side;
+    }
+
+    public override double GetArea()
+    {
+        return _side * _side;
+    }
+}

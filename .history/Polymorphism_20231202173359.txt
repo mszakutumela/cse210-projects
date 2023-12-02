@@ -12,7 +12,7 @@ same name method in various ways. Polymorphism helps a function to behave differ
 for different situations. It helps the developer to reuse a method in many different 
 ways. A good example is found in method overriding. Method overriding is when a child
 class overrrides or changes the behavior of a method that was inherited from a parent 
-class. In the original method within the parent class the term virtual is used. In 
+class. In the original method with the the parent class the term virtual is used. In 
 the child class where the method is overridden, the term override is used.
 
 An example of polymorphism from the program I wrote:
