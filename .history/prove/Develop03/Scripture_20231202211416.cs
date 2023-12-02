@@ -1,0 +1,14 @@
+using System;
+
+public class Scripture
+{
+    private Reference _reference;
+    private List<Word> _words;
+}
+
+public Scripture(Reference : Reference, string word)
+{
+
+}
+
+public HideRandomWords(int numberToHide) 

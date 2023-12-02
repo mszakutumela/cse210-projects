@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello Develop03 World!");
+        Console.WriteLine();
+
+        Reference scriptureReference = new Reference("Proverbs", 3, 5, 6);
+        Scripture scripture = new Scripture(scriptureReference, "Trust in the Lord with all thine heart;\n
+        and learn not ")
+        
+    }
+}
