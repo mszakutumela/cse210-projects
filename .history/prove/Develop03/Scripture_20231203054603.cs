@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 public class Scripture
 {
@@ -16,7 +17,7 @@ public class Scripture
         return _reference;
     }
 
-    public void HideRandomWords(int numberToHide) 
+    public bool HideRandomWords(int numberToHide) 
     {
         Random random = new();
         for (int i = 0; i < numberToHide; i++)
@@ -26,8 +27,7 @@ public class Scripture
             {
                 return _words[random.Next(0, _words.Count)];
             }
-        }
-    }    
+    }
 
     public string GetDisplayText()
     {
@@ -47,7 +47,7 @@ public class Scripture
 
     public bool IsCompletelyHidden()
     {
-        foreach (string word in _words)
+        foreach (word in _words)
         {
             if (!word.Hide())
             {

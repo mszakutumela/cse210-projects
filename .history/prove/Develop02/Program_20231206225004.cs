@@ -20,7 +20,7 @@ class Program
             );
 
             Console.Write("Which option do you choose? ");
-            int userChoice = int.Parse(Console.ReadLine());
+             userChoice = int.Parse(Console.ReadLine());
 
             switch(userChoice)
             {
@@ -45,7 +45,6 @@ class Program
                     break; 
                 default:
                     Console.WriteLine("Invalid input.");
-                    break;
             }
         }
     }

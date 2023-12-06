@@ -16,7 +16,7 @@ public class Scripture
         return _reference;
     }
 
-    public void HideRandomWords(int numberToHide) 
+    public  HideRandomWords(int numberToHide) 
     {
         Random random = new();
         for (int i = 0; i < numberToHide; i++)

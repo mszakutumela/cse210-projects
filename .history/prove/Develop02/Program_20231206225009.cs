@@ -45,7 +45,6 @@ class Program
                     break; 
                 default:
                     Console.WriteLine("Invalid input.");
-                    break;
             }
         }
     }
