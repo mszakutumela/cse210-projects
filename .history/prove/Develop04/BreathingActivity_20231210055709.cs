@@ -12,8 +12,6 @@ public class BreathingActivity : Activity
     {
         DateTime futureTime = GetFutureTime(GetDuration());
         DateTime currentTime = GetCurrentTime();
-
-        Console.WriteLine();
     }
 
 }

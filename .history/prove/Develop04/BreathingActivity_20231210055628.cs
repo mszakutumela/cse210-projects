@@ -10,10 +10,7 @@ public class BreathingActivity : Activity
 
     public void RunActivity()
     {
-        DateTime futureTime = GetFutureTime(GetDuration());
-        DateTime currentTime = GetCurrentTime();
-
-        Console.WriteLine();
+        DateTime futureTime = 
     }
 
 }
