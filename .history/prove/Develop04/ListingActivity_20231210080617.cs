@@ -2,7 +2,7 @@ using System;
 
 public class ListingActivity : Activity
 {
-    // private int _count;
+    private int _count;
     private List<string> _prompts = new() {
         "Who are people that you appreciate?",
         "What are personal strengths of yours?",
@@ -40,7 +40,7 @@ public class ListingActivity : Activity
         
         while (currentTime <= futureTime)
         {
-            string promptQues = GetRandomPrompt();
+            string promptQues = GetRand();
             Console.Write("> ");
             Console.WriteLine();
             currentTime = DateTime.Now;

@@ -18,7 +18,7 @@ public class Activity
         _name = name;
     }
 
-    public void SetDescription(string description)
+    public void SetDescription(string name)
     {
         _description = description;
     }
@@ -54,7 +54,7 @@ public class Activity
         int spinWait = 500;
 
         spinnerPosition = Console.CursorLeft;
-        DateTime futureTime = GetFutureTime(5);
+        DateTime seconds = GetFutureTime(5);
 
         while (DateTime.Now < seconds)
         {
@@ -81,10 +81,8 @@ public class Activity
         {
             Console.CursorLeft = timerPosition;
             Console.Write(seconds - i);
-            Thread.Sleep(timerWait);
+            Thread.Write(" ");
         }
-        Console.CursorLeft = timerPosition;
-        Console.Write(" ");
     }
 
     public void GetReady()
@@ -109,7 +107,7 @@ public class Activity
         ShowSpinner(5);
         Console.WriteLine();
         Console.WriteLine($"You have completed another {_duration} seconds of the {_name}.");
-        ShowSpinner(5);
+        ShowSpinner();
     }
 
     public DateTime GetFutureTime(int duration)

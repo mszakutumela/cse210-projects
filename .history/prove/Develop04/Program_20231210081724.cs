@@ -33,7 +33,6 @@ class Program
              Console.WriteLine("Select a choice from the menu:");
              
              userInput = Console.ReadLine();
-             Console.WriteLine(userInput);
 
              switch(userInput)
              {

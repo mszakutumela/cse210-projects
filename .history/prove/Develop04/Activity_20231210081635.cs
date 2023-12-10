@@ -109,7 +109,7 @@ public class Activity
         ShowSpinner(5);
         Console.WriteLine();
         Console.WriteLine($"You have completed another {_duration} seconds of the {_name}.");
-        ShowSpinner(5);
+        ShowSpinner();
     }
 
     public DateTime GetFutureTime(int duration)
