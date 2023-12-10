@@ -46,7 +46,7 @@ class Program
                     // breathingLog++;
                     break;
 
-                case "2":
+                case 2:
                     BreathingActivity reflectingActivity = new();
                     reflectingActivity.DisplayStartingMessage();
                     reflectingActivity.RunActivity();
@@ -55,7 +55,7 @@ class Program
                     // reflectingLog++;
                     break;
 
-                case "3":
+                case 3:
                     BreathingActivity listingActivity = new();
                     listingActivity.DisplayStartingMessage();
                     listingActivity.RunActivity();
@@ -64,7 +64,7 @@ class Program
                     // listingLog++;
                     break;
                 
-                case "4":
+                case 4:
                     Environment.Exit(0);
                     break; 
                 default:

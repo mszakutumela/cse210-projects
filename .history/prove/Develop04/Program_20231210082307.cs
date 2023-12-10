@@ -8,18 +8,18 @@ class Program
         Console.WriteLine();
 
         string userInput = " ";
-        // int breathingLog = 0;
-        // int reflectingLog = 0;
-        // int listingLog = 0;
+        int breathingLog = 0;
+        int reflectingLog = 0;
+        int listingLog = 0;
 
-        // void DisplayLog()
-        // {
-        //     Console.WriteLine("Activity Log - Current Session");
-        //     Console.WriteLine($"Breathing Activity: {breathingLog}");
-        //     Console.WriteLine($"Reflecting Activity: {reflectingLog}");
-        //     Console.WriteLine($"Listing Activity: {listingLog}");
-        //     Console.WriteLine();
-        // }
+        void DisplayLog()
+        {
+            Console.WriteLine("Activity Log - Current Session");
+            Console.WriteLine($"Breathing Activity: {breathingLog}");
+            Console.WriteLine($"Reflecting Activity: {reflectingLog}");
+            Console.WriteLine($"Listing Activity: {listingLog}");
+            Console.WriteLine();
+        }
 
         while (true)
         {
@@ -37,34 +37,34 @@ class Program
 
              switch(userInput)
              {
-                case "1":
+                case 1:
                     BreathingActivity breathingActivity = new();
                     breathingActivity.DisplayStartingMessage();
                     breathingActivity.RunActivity();
                     breathingActivity.DisplayEndingMessage();
 
-                    // breathingLog++;
+                    breathingLog++;
                     break;
 
-                case "2":
+                case 2:
                     BreathingActivity reflectingActivity = new();
                     reflectingActivity.DisplayStartingMessage();
                     reflectingActivity.RunActivity();
                     reflectingActivity.DisplayEndingMessage();
 
-                    // reflectingLog++;
+                    reflectingLog++;
                     break;
 
-                case "3":
+                case 3:
                     BreathingActivity listingActivity = new();
                     listingActivity.DisplayStartingMessage();
                     listingActivity.RunActivity();
                     listingActivity.DisplayEndingMessage();
 
-                    // listingLog++;
+                    listingLog++;
                     break;
                 
-                case "4":
+                case 4:
                     Environment.Exit(0);
                     break; 
                 default:

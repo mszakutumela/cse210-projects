@@ -64,7 +64,7 @@ class Program
                     // listingLog++;
                     break;
                 
-                case "4":
+                case "4:
                     Environment.Exit(0);
                     break; 
                 default:
