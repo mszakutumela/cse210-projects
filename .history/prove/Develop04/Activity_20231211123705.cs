@@ -93,7 +93,7 @@ public class Activity
     {
         Console.Clear();
         Console.WriteLine("Get ready!!");
-        ShowSpinner(5);
+        ShowSpinner();
     }
 
     public void RunActivity()

@@ -50,7 +50,7 @@ class Program
 
                 case "2":
                     ReflectingActivity reflectingActivity = new();
-                    reflectingActivity.RunActivity();
+                    reflectingActivity.Run();
                     reflectingActivity.RunReflectActivity();
                     reflectingActivity.DisplayEndingMessage();
 
@@ -59,7 +59,7 @@ class Program
 
                 case "3":
                     ListingActivity listingActivity = new();
-                    listingActivity.RunActivity();
+                    listingActivity.DisplayStartingMessage();
                     listingActivity.RunListActivity();
                     listingActivity.DisplayEndingMessage();
 

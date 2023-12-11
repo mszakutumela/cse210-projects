@@ -11,7 +11,7 @@ public class Activity
     {
         _name = " ";
         _description = " ";
-        _duration = 30;
+        _duration = ;
     }
 
     public void SetName(string name)

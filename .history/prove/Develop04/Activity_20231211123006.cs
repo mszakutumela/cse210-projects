@@ -11,7 +11,7 @@ public class Activity
     {
         _name = " ";
         _description = " ";
-        _duration = 30;
+        _duration = ;
     }
 
     public void SetName(string name)
@@ -93,7 +93,7 @@ public class Activity
     {
         Console.Clear();
         Console.WriteLine("Get ready!!");
-        ShowSpinner(5);
+        ShowSpinner(6);
     }
 
     public void RunActivity()
@@ -112,7 +112,6 @@ public class Activity
         Console.WriteLine();
         Console.WriteLine($"You have completed another {_duration} seconds of the {_name}.");
         ShowSpinner(5);
-        Console.WriteLine();
     }
 
     public DateTime GetFutureTime(int duration)

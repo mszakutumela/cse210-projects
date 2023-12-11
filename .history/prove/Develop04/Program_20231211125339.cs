@@ -59,7 +59,7 @@ class Program
 
                 case "3":
                     ListingActivity listingActivity = new();
-                    listingActivity.RunActivity();
+                    listingActivity.DisplayStartingMessage();
                     listingActivity.RunListActivity();
                     listingActivity.DisplayEndingMessage();
 

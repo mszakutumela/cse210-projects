@@ -35,13 +35,13 @@ class Program
              
              userInput = Console.ReadLine();
             //  Console.WriteLine(userInput);
-            Console.WriteLine();
+            
 
              switch(userInput)
              {
                 case "1":
                     BreathingActivity breathingActivity = new();
-                    breathingActivity.RunActivity();
+                    breathingActivity.DisplayStartingMessage();
                     breathingActivity.RunBreathActivity();
                     breathingActivity.DisplayEndingMessage();
 
@@ -50,7 +50,7 @@ class Program
 
                 case "2":
                     ReflectingActivity reflectingActivity = new();
-                    reflectingActivity.RunActivity();
+                    reflectingActivity.DisplayStartingMessage();
                     reflectingActivity.RunReflectActivity();
                     reflectingActivity.DisplayEndingMessage();
 
@@ -59,7 +59,7 @@ class Program
 
                 case "3":
                     ListingActivity listingActivity = new();
-                    listingActivity.RunActivity();
+                    listingActivity.DisplayStartingMessage();
                     listingActivity.RunListActivity();
                     listingActivity.DisplayEndingMessage();
 
