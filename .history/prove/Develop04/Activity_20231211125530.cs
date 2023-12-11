@@ -11,7 +11,7 @@ public class Activity
     {
         _name = " ";
         _description = " ";
-        _duration = 10;
+        _duration = 1;
     }
 
     public void SetName(string name)
@@ -39,7 +39,7 @@ public class Activity
     public void AskForDuration()
     {
         Console.WriteLine();
-        Console.Write("How long, in seconds, would you like for your session? ");
+        Console.WriteLine("How long, in seconds, would you like for your session? ");
         string durationInSeconds = Console.ReadLine();
         SetDuration(Convert.ToInt32(durationInSeconds));
     }
