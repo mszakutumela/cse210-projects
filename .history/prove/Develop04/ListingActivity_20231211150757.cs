@@ -57,8 +57,7 @@ public class ListingActivity : Activity
         ShowCountDown(5);
         Console.WriteLine();
         ListingTimer();
-        Console.WriteLine();
-        DisplayUserListCount();
+        
     }    
 
     public void ListingTimer()
@@ -72,6 +71,7 @@ public class ListingActivity : Activity
             Console.Write("> ");
             Console.ReadLine();
             AddUserListCount();
+            Console.WriteLine();
             currentTime = DateTime.Now;
         }
     } 
@@ -79,7 +79,7 @@ public class ListingActivity : Activity
     public void DisplayUserListCount()
     {
         int userListCount = GetUserListCount();
-        Console.WriteLine($"You listed {userListCount} items. ");
+        Console.WriteLine($"You listed {userListCount} items. ")
     }   
 
 }

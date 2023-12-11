@@ -72,6 +72,7 @@ public class ListingActivity : Activity
             Console.Write("> ");
             Console.ReadLine();
             AddUserListCount();
+            Console.WriteLine();
             currentTime = DateTime.Now;
         }
     } 

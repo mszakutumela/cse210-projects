@@ -56,9 +56,6 @@ public class ListingActivity : Activity
         Console.Write("You may begin in: ");
         ShowCountDown(5);
         Console.WriteLine();
-        ListingTimer();
-        Console.WriteLine();
-        DisplayUserListCount();
     }    
 
     public void ListingTimer()
@@ -71,15 +68,9 @@ public class ListingActivity : Activity
             string promptQues = GetRandomPrompt();
             Console.Write("> ");
             Console.ReadLine();
-            AddUserListCount();
+            Console.WriteLine();
             currentTime = DateTime.Now;
         }
-    } 
-
-    public void DisplayUserListCount()
-    {
-        int userListCount = GetUserListCount();
-        Console.WriteLine($"You listed {userListCount} items. ");
-    }   
+    }    
 
 }

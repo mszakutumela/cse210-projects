@@ -71,7 +71,7 @@ class Program
                     break; 
                 default:
                     Console.WriteLine("Please enter the number from the menu option. ");
-                    Console.WriteLine();
+                    
                     break;
              }
         }

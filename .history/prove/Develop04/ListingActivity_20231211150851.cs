@@ -72,6 +72,7 @@ public class ListingActivity : Activity
             Console.Write("> ");
             Console.ReadLine();
             AddUserListCount();
+            Console.WriteLine();
             currentTime = DateTime.Now;
         }
     } 
@@ -79,7 +80,7 @@ public class ListingActivity : Activity
     public void DisplayUserListCount()
     {
         int userListCount = GetUserListCount();
-        Console.WriteLine($"You listed {userListCount} items. ");
+        Console.WriteLine($"You listed {userListCount} items. ")
     }   
 
 }

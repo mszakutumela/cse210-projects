@@ -4,7 +4,6 @@ public class ListingActivity : Activity
 {
     private int _userListCount;
     private List<string> _prompts;
-    // private List<string> _listFromUser;
     
     public ListingActivity()
     {
@@ -27,25 +26,15 @@ public class ListingActivity : Activity
         // return _prompts[index];
     }
 
-    public int GetUserListCount()
+    public int GetUser()
     {
-        return _userListCount;
+        return _userListCount
     }
 
-    // public void SetUserListCount()
-    // {
-    //     _userListCount = userListCount;
-    // }
-
-    public void AddUserListCount()
+    public string GetListFromUser()
     {
-        _userListCount++;
-    }
 
-    // public string GetListFromUser()
-    // {
-    //     return _listFromUser;
-    // }
+    }
     
     public void RunListActivity()
     {
@@ -56,9 +45,6 @@ public class ListingActivity : Activity
         Console.Write("You may begin in: ");
         ShowCountDown(5);
         Console.WriteLine();
-        ListingTimer();
-        Console.WriteLine();
-        DisplayUserListCount();
     }    
 
     public void ListingTimer()
@@ -66,20 +52,14 @@ public class ListingActivity : Activity
         DateTime futureTime = GetFutureTime(GetDuration());
         DateTime currentTime = GetCurrentTime();
         
-        while (currentTime < futureTime)
+        while (currentTime <= futureTime)
         {
             string promptQues = GetRandomPrompt();
             Console.Write("> ");
             Console.ReadLine();
-            AddUserListCount();
+            Console.WriteLine();
             currentTime = DateTime.Now;
         }
-    } 
-
-    public void DisplayUserListCount()
-    {
-        int userListCount = GetUserListCount();
-        Console.WriteLine($"You listed {userListCount} items. ");
-    }   
+    }    
 
 }
