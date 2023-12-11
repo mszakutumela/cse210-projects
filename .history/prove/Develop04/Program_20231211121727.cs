@@ -31,7 +31,7 @@ class Program
                 + "3. Save Entries\n"
                 + "4. Quit"
             );
-             Console.Write("Select a choice from the menu: ");
+             Console.Write("Select a choice from the menu:");
              
              userInput = Console.ReadLine();
              Console.WriteLine(userInput);

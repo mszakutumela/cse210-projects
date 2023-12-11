@@ -58,7 +58,7 @@ public class Activity
         DateTime futureTime = GetFutureTime(5);
         // DateTime currentTime = DateTime.Now;
 
-        while (DateTime.Now < futureTime)
+        while (DateTime.Now < seconds)
         {
             char[] spinChars = new char[]{'|','/','-','\\'};
             foreach (char spinChar in spinChars)

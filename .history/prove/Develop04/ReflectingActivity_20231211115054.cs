@@ -42,7 +42,7 @@ public class ReflectingActivity : Activity
         // return _promptQues[index];
     }
 
-    public void RunReflectActivity()
+    public void RunActivity()
     {
         string prompt = GetRandomPrompt();
         Console.WriteLine();

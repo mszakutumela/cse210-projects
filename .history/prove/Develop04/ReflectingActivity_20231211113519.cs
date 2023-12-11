@@ -31,18 +31,19 @@ public class ReflectingActivity : Activity
         Random random = new();
         return _prompts[random.Next(0,_prompts.Count)];
 
-        // return _prompts[index];
+        return _prompts[index];
     } 
+    }
 
     public string GetPromptQuestions()
     {
         Random random = new();
-        return _promptQues[random.Next(0,_promptQues.Count)];
+        return _promptsQues[random.Next(0,_promptQues.Count)];
 
         // return _promptQues[index];
     }
 
-    public void RunReflectActivity()
+    public void RunActivity()
     {
         string prompt = GetRandomPrompt();
         Console.WriteLine();

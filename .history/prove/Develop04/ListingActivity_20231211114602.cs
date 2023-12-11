@@ -20,12 +20,14 @@ public class ListingActivity : Activity
     public string GetRandomPrompt()
     {
         Random random = new();
-        return _prompts[random.Next(0,_prompts.Count)];
+        int index = random.Next(0,_prompts.Count);
+        
 
-        // return _prompts[index];
+
+        return _prompts[index];
     }
     
-    public void RunListActivity()
+    public void RunActivity()
     {
         string prompt = GetRandomPrompt();
         Console.WriteLine();

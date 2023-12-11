@@ -11,7 +11,7 @@ public class Activity
     {
         _name = " ";
         _description = " ";
-        _duration = 10;
+        _duration = 0;
     }
 
     public void SetName(string name)
@@ -58,7 +58,7 @@ public class Activity
         DateTime futureTime = GetFutureTime(5);
         // DateTime currentTime = DateTime.Now;
 
-        while (DateTime.Now < futureTime)
+        while (futureTime == seconds)
         {
             char[] spinChars = new char[]{'|','/','-','\\'};
             foreach (char spinChar in spinChars)

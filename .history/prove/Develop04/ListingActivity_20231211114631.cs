@@ -25,7 +25,7 @@ public class ListingActivity : Activity
         // return _prompts[index];
     }
     
-    public void RunListActivity()
+    public void RunActivity()
     {
         string prompt = GetRandomPrompt();
         Console.WriteLine();

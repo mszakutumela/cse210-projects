@@ -31,7 +31,7 @@ class Program
                 + "3. Save Entries\n"
                 + "4. Quit"
             );
-             Console.Write("Select a choice from the menu: ");
+             Console.WriteLine("Select a choice from the menu:");
              
              userInput = Console.ReadLine();
              Console.WriteLine(userInput);
@@ -41,25 +41,25 @@ class Program
                 case "1":
                     BreathingActivity breathingActivity = new();
                     breathingActivity.DisplayStartingMessage();
-                    breathingActivity.RunBreathActivity();
+                    breathingActivity.RunActivity();
                     breathingActivity.DisplayEndingMessage();
 
                     // breathingLog++;
                     break;
 
                 case "2":
-                    ReflectingActivity reflectingActivity = new();
+                    BreathingActivity reflectingActivity = new();
                     reflectingActivity.DisplayStartingMessage();
-                    reflectingActivity.RunReflectActivity();
+                    reflectingActivity.RunActivity();
                     reflectingActivity.DisplayEndingMessage();
 
                     // reflectingLog++;
                     break;
 
                 case "3":
-                    ListingActivity listingActivity = new();
+                    ListiingActivity listingActivity = new();
                     listingActivity.DisplayStartingMessage();
-                    listingActivity.RunListActivity();
+                    listingActivity.RunActivity();
                     listingActivity.DisplayEndingMessage();
 
                     // listingLog++;
