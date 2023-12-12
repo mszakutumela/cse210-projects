@@ -1,5 +1,4 @@
 using System;
-using System.IO;
 
 class Program
 {
@@ -7,9 +6,5 @@ class Program
     {
         Console.WriteLine("Hello Develop05 World!");
         Console.WriteLine();
-
-        
-
-
     }
 }
