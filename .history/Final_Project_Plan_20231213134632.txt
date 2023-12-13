@@ -1,0 +1,21 @@
+Final Project Plan
+
+The project option I am choosing is, Foundation 4.
+
+Foundation 4
+
+Program 1: Abstraction with YouTube Videos
+This is an abstraction project. I will wrtie a program to keep track of YouTube video and the
+comments left on them.
+
+Program 2: Encapsulation with Online Ordering
+This is an encapsulation project. I will write a program to help Makro with their product 
+ordering system.
+
+Program 3: Inheritance with Event Planning
+This is an Inheritance project. I will write a program to help Uhambo Events keep track of
+each event and the program will also produce the marketing material to distrubute on 
+social media.
+
+Program 4: Polymorphism with Exercise Tracking
+This is a polymorphism project. It will have a parent class named "Activity". 

@@ -1,0 +1,11 @@
+Final Project Plan
+
+The project option I am choosing is, Foundation 4.
+
+Foundation 4
+
+Program 1: Abstraction with YouTube Videos
+
+Program 2: Encapsulation with Online Ordering
+
+Program 3: Inheritance with Event Planning
