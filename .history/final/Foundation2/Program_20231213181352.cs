@@ -6,6 +6,5 @@ class Program
     {
         Console.WriteLine("Hello Foundation2 World!");
         Console.WriteLine();
-        
     }
 }

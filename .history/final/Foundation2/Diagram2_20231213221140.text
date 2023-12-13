@@ -1,0 +1,69 @@
+Foundation 2 Diagram
+
+------------------------------------
+| Class:                           |
+|             Order                |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _customer: Customer        |
+|       _Products: List<Product>   |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| CalculateTotalPrice(): float        |
+| GetPacigLabel(): int          |
+| DisplayDetails(): void              |
+|_____________________________________|
+                |
+------------------------------------
+| Class:                           |
+|             Comment              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _viewerName: string        |
+|       _commentText: string       |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| Comment(name, text): string         |
+| DisplayDetails(): void              |
+|_____________________________________|                    
+
+------------------------------------
+| Class:                           |
+|             Order                |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _title: string             |
+|       _author: string            |
+|       _Length: int               |
+|       _comments: List<Comment>   |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| AddComment(comment: Comment): void  |
+| GetNumberOfComments(): int          |
+| DisplayDetails(): void              |
+|_____________________________________|
+                |
+------------------------------------
+| Class:                           |
+|             Comment              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _viewerName: string        |
+|       _commentText: string       |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| Comment(name, text): string         |
+| DisplayDetails(): void              |
+|_____________________________________|      
