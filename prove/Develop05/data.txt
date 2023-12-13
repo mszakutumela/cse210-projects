@@ -1,0 +1,4 @@
+0
+Simple Goal: Give a talk | description: Speak in Sacrament when asked | points: 100 | completed: False
+Eternal Goal: Study the scriptures | description: Study for at least 10 minutes  | points: 50 
+Checklist Goal: Attend the Temple | description: Attend and perform any ordinance | points: 50 | 500 | 0 | 3
