@@ -1,0 +1,89 @@
+Foundation 3 Diagram
+
+------------------------------------
+| Parent Class:                    |
+|             Event                |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _title: string             |
+|       _description: string       |
+|       _date: DateTime            |
+|       _time: TimeDuration        |
+
+|__________________________________|__
+| methods:                            |
+|                                     |
+| CalculateTotalPrice(): float        |
+| GetPackingLabel(): string           |
+| GetShippingLabel(): string          |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                     |
+|           Lecture : Event        |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _productName: string       |
+|       _productId: string         |
+|       _price: float              |
+|       _quantity: int             |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| TotalPrice(): float                 |
+|_____________________________________|                    
+                |
+------------------------------------
+| Child Class:                     |
+|           Reception : Event      |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _customerName: string      |
+|       _customerAddress: Address  |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                     |
+|      OutDoorGathering : Event    |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _street: string            |
+|       _city: string              |
+|       _province: string          |
+|       _country: string           |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+| GetAddress(): string                |
+|_____________________________________|
+                |
+------------------------------------
+| Class:                           |
+|             Address              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _street: string            |
+|       _city: string              |
+|       _province: string          |
+|       _country: string           |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+| GetAddress(): string                |
+|_____________________________________|        

@@ -1,0 +1,86 @@
+Foundation 3 Diagram
+
+------------------------------------
+| Parent Class:                           |
+|             Event               |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _customer: Customer        |
+|       _Products: List<Product>   |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| CalculateTotalPrice(): float        |
+| GetPackingLabel(): string           |
+| GetShippingLabel(): string          |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                           |
+|             Product              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _productName: string       |
+|       _productId: string         |
+|       _price: float              |
+|       _quantity: int             |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| TotalPrice(): float                 |
+|_____________________________________|                    
+                |
+------------------------------------
+| Class:                           |
+|             Customer             |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _customerName: string      |
+|       _customerAddress: Address  |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+|_____________________________________|
+                |
+------------------------------------
+| Class:                           |
+|             Address              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _street: string            |
+|       _city: string              |
+|       _province: string          |
+|       _country: string           |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+| GetAddress(): string                |
+|_____________________________________|
+                |
+------------------------------------
+| Class:                           |
+|             Address              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _street: string            |
+|       _city: string              |
+|       _province: string          |
+|       _country: string           |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+| GetAddress(): string                |
+|_____________________________________|        

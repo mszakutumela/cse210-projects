@@ -1,0 +1,83 @@
+Foundation 3 Diagram
+
+------------------------------------
+| Parent Class:                    |
+|             Event                |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _title: string             |
+|       _description: string       |
+|       _date: DateTime            |
+|       _time: TimeDuration        |
+|       _address: Address          |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetStandardDetails(): string        |
+| GetFullDetails(): string            |
+| GetShortDescription(): string       |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                     |
+|           Lecture : Event        |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _speaker: string           |
+|       _capacity: int             |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetFullDetails(): string            |
+|_____________________________________|                    
+                |
+------------------------------------
+| Child Class:                     |
+|           Reception : Event      |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _rsvpEmail: string         |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetFullDetails(): string            |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                     |
+|      OutDoorGathering : Event    |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _street: string            |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+| GetAddress(): string                |
+|_____________________________________|
+                |
+------------------------------------
+| Class:                           |
+|             Address              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _street: string            |
+|       _city: string              |
+|       _province: string          |
+|       _country: string           |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| ForUSACustomer(): bool              |
+| GetAddress(): string                |
+|_____________________________________|        
