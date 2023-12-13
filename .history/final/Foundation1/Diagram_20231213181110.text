@@ -1,0 +1,36 @@
+Foundation 1 Diagram
+
+------------------------------------
+| Class:                           |
+|             Video                |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _title: string             |
+|       _author: string            |
+|       _Length: int               |
+|       _comments: List<Comment>   |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| AddComment(comment: Comment): void  |
+| GetNumberOfComments(): int          |
+| DisplayDetails(): void         |
+|_____________________________________|
+                |
+------------------------------------
+| Class:                           |
+|             Comment              |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _viewerName: string        |
+|       _commentText: string       |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| Comment(name, text): string         |
+| DisplayDetails(): void              |
+|_____________________________________|                    

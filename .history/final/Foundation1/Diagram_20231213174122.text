@@ -1,0 +1,11 @@
+Foundation 1 Diagram
+
+------------------------------------
+| Class:                           |
+|             Video                |
+|                                  |
+------------------------------------
+| variables:
+|
+| _title: string
+| _author: str
