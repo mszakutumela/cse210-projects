@@ -3,7 +3,7 @@ using System;
 // This is a child class. This goal gets ticked off.
 public class SimpleGoal : Goal
 {
-    // private bool _isComplete;
+    private bool _isComplete;
 
     public SimpleGoal(string name, string description, int points, bool status)
     {
@@ -21,10 +21,8 @@ public class SimpleGoal : Goal
         _goalStatus = false;
     }
 
-    // public bool GetIsComplete()
-    // {
-    //     return _isComplete;
-    // }
+    public bool GetIsComplete()
+    
 
     public override void CreateChildGoal()
     {

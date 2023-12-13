@@ -21,10 +21,10 @@ public class SimpleGoal : Goal
         _goalStatus = false;
     }
 
-    // public bool GetIsComplete()
-    // {
-    //     return _isComplete;
-    // }
+    public bool GetIsComplete()
+    {
+        return _isComplete;
+    }
 
     public override void CreateChildGoal()
     {

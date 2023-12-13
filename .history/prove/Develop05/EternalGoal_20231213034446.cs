@@ -13,7 +13,7 @@ public class EternalGoal : Goal
         _counter = 0;
     }
 
-    public EternalGoal()
+    public SimpleGoal()
     {
         _shortName = "Name of Eternal Goal";
         _description = "Description of Eternal Goal";
@@ -36,7 +36,7 @@ public class EternalGoal : Goal
         return false;
     }
 
-    public override void GoalTickOff()
+    public override GoalTickOff()
     {
         Console.WriteLine($"[ ] {_shortName} ({_description})");
     }

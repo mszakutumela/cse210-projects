@@ -5,7 +5,7 @@ public class Goal
 {
     protected string _shortName;
     protected string _description;
-    protected int _points;
+    protected  _points;
     protected bool _goalStatus;
 
     public Goal(string name, string description, int points)

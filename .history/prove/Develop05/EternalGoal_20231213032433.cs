@@ -13,7 +13,7 @@ public class EternalGoal : Goal
         _counter = 0;
     }
 
-    public EternalGoal()
+    public SimpleGoal()
     {
         _shortName = "Name of Eternal Goal";
         _description = "Description of Eternal Goal";
@@ -31,28 +31,13 @@ public class EternalGoal : Goal
         _counter++;
     }
 
-    public override bool IsComplete()
+    public override IsComplete()
     {
         return false;
     }
 
-    public override void GoalTickOff()
-    {
-        Console.WriteLine($"[ ] {_shortName} ({_description})");
-    }
-
     public override int SumTotalPoints()
     {
-        int totalPoints = _points;
-
-        return totalPoints; 
-
-    }
-
-    public override string GetStringRepresentation()
-    {
-        string line = $"Eternal Goal: {_shortName} | description: {_description} | points: {_points.ToString()} ";
-
-        return line;
+        int points = points
     }
 }

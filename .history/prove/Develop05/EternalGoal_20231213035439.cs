@@ -9,7 +9,7 @@ public class EternalGoal : Goal
     {
         _shortName = name;
         _description = description;
-        _points = points;
+        _points = 20;
         _counter = 0;
     }
 
