@@ -1,0 +1,98 @@
+Programming With Classes
+Programming with classes is when the Developer uses object-oriented programming. A class is a design for creating an object that houses specific data types and it allows the Developer to build his or her program in this way. I learned about four principles of programming with classes this semester: Abstraction, Encapsulation, Inheritance and Polymorphism. I was able to these principles in my Foundation projects, as follows:
+Foundation 1:  Abstraction
+Abstraction is a method that simplifies difficult ideas. In the abstraction method, certain 
+features are eliminated from an object, leaving behind the vital ones. Abstraction divides
+functions into various objects, like classes and methods. In this way the developer can reuse
+various classes in order to achieve the desired output.
+Example of how this was applied in this project:
+public void DisplayDetails()
+    {
+        Console.WriteLine($"Title: {_title} | Author: {_author} | Length: {_length} minutes");
+        Console.WriteLine();
+        int commentTotal = GetNumberOfComments();
+        Console.WriteLine($"Number of comments: {commentTotal}");
+        foreach (Comment comment in _comments)
+        {
+            comment.DisplayDetails();
+        }
+Foundation 2: Encapsulation
+I used encapsulation in this project by using the access modifier, “private”, to seal in the variables within a specific class, so that other classes or methods within the program cannot access the variables. Encapsulation helped me to group codes into logical objects that represent actual ideas. With encapsulation I can ensure that the data is protected. 
+Example of how this was applied in this project:
+public class Address
+{
+    private string _street;
+    private string _city;
+    private string _province;
+    private string _country;
+    public Address()
+    {
+
+    }
+
+
+Foundation 3: Inheritance
+Inheritance is like a parent child relationship. A daughter may inherited
+certain physical features or personality traits from their mother. The parent
+class whose attributes and methods are inherited is called the base or super class.
+The child class that inherits these attributes and methods is called the derived 
+or sub class.  Inheritance is a very important and useful principle when it comes to 
+object-oriented programming.
+Example of how this was applied in this project:
+public class Events
+{
+    private string _title;
+    private string _description;
+    private string _date;
+    private string _time;
+    private Address _address;
+    public Event()
+    {
+
+    }
+public class Lectures : Event
+{
+    private string _speaker;
+    private int _capacity;
+
+    public Lectures()
+    {
+
+    }
+
+Foundation 4: Polymorphism
+The skill of one line of code having the ability to take on diverse actions
+at once, depenidng on the framework is called, Polymorphism. Polymorphism 
+sounds is like a family. Through the principle of Inheritance a family is 
+formed where we have a parent class and a child classes. Polymorphism, like
+Inheritance is also a very important principle when it comes to object-oriented 
+programming. A good example is found in method overriding.
+
+public class Activity
+{
+    protected DateTime _date;
+    protected int _minutes;
+    public Activity()
+    {
+
+    }
+    public virtual double GetDistance()
+    {
+        return 0; 
+    }
+public class Running : Activity
+{
+    private double _distance;
+
+    public Running()
+    {
+        
+    }
+
+    public override double GetDistance()
+    {
+        
+        
+    }
+
+
