@@ -1,0 +1,70 @@
+Foundation 3 Diagram
+
+------------------------------------
+| Parent Class:                    |
+|             Activity             |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _date: DateTime            |
+|       _length: int               |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetDistance(): virtual double       |
+| GetSpeed(): virtual double          |
+| GetPace(): virtual double           |
+| GetSummary(): virtual string        |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                     |
+|           Running : Activity     |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _distance: double          |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetDistance(): override double      |
+| GetSpeed(): override double         | 
+| GetPace(): override double          |
+| GetSummary(): override string       |
+|_____________________________________|                    
+                |
+------------------------------------
+| Child Class:                     |
+|   StationaryBicycle : Activity   |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _speed: double          |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetDistance(): override double      |
+| GetSpeed(): override double         | 
+| GetPace(): override double          |
+| GetSummary(): override string       |
+|_____________________________________|  
+                |
+------------------------------------
+| Child Class:                     |
+|            : Activity     |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _distance: double          |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetDistance(): override double      |
+| GetSpeed(): override double         | 
+| GetPace(): override double          |
+| GetSummary(): override string       |
+|_____________________________________|  

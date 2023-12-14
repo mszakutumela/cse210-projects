@@ -1,0 +1,61 @@
+Foundation 3 Diagram
+
+------------------------------------
+| Parent Class:                    |
+|             Activity             |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _date: DateTime            |
+|       _length: int               |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetDistance(): virtual double               |
+| GetSpeed(): virtual double                  |
+| GetPace(): virtual double                   |
+| GetSummary(): virtual string                |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                     |
+|           Running : Activity     |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _distance: double          |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetFullDetails(): string            |
+|_____________________________________|                    
+                |
+------------------------------------
+| Child Class:                     |
+|           Receptions : Event     |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _rsvpEmail: string         |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetFullDetails(): string            |
+|_____________________________________|
+                |
+------------------------------------
+| Child Class:                     |
+|      OutDoorGatherings : Event   |
+|                                  |
+------------------------------------
+| member variables:                |
+|                                  |
+|       _weatherForecast: string   |
+|__________________________________|__
+| methods:                            |
+|                                     |
+| GetFullDetails(): string            |
+|_____________________________________|
