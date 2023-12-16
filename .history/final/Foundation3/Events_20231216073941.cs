@@ -38,7 +38,7 @@ public class Events
         Console.WriteLine($"Date: {_date}");
         Console.WriteLine($"Time: {_time}");
         Console.WriteLine($"Address: {_address}");
-        Console.WriteLine($"Event Information: {_information}");
+        Console.WriteLine($"Address: {_address}");
     }
 
     public string GetShortDescription()

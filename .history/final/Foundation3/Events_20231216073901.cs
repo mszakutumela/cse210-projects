@@ -18,7 +18,7 @@ public class Events
         _time = time;
         _address = address;
         _eventType = type;
-        _information = info;
+        _information = info
     }
 
     public string GetStandardDetails()
@@ -38,7 +38,6 @@ public class Events
         Console.WriteLine($"Date: {_date}");
         Console.WriteLine($"Time: {_time}");
         Console.WriteLine($"Address: {_address}");
-        Console.WriteLine($"Event Information: {_information}");
     }
 
     public string GetShortDescription()

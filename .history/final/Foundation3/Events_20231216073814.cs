@@ -8,9 +8,9 @@ public class Events
     private string _time {get; set;}
     private Address _address {get; set;}
     private string _eventType {get; set;}
-    private string _information {get; set;}
+    
 
-    public Events(string title, string description, string date, string time, string address, string type, string info)
+    public Events(string title, string description, string date, string time, string address, string type)
     {
         _title = title;
         _description = description;
@@ -18,7 +18,6 @@ public class Events
         _time = time;
         _address = address;
         _eventType = type;
-        _information = info;
     }
 
     public string GetStandardDetails()
@@ -38,7 +37,6 @@ public class Events
         Console.WriteLine($"Date: {_date}");
         Console.WriteLine($"Time: {_time}");
         Console.WriteLine($"Address: {_address}");
-        Console.WriteLine($"Event Information: {_information}");
     }
 
     public string GetShortDescription()

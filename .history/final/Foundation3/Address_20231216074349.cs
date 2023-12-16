@@ -14,11 +14,10 @@ public class Address
         _city = city;
         _province = province;
         _country = country;
-        _postalCode = code;
     }
     
     public string GetFullAddress()
     {
-        return $"{_street}, {_city}, {_province}, {_country}, {_postalCode}";
+        
     }
 }
