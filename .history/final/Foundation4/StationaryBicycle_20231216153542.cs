@@ -12,7 +12,7 @@ public class StationaryBicycle : Activity
 
     public override double GetDistance()
     {
-        double distance = _speed * _time / 60;
+        double distance = _speed * _time / 60);
 
         return distance;
 

@@ -18,7 +18,7 @@ public class Swimming : Activity
     }
     public override double GetSpeed()
     {
-        double speed = GetDistance() / _time * 60;
+        double speed = GetDistance() / (_time * 60);
 
         return speed; 
     }         

@@ -30,6 +30,6 @@ public class Activity
 
     public virtual string GetSummary()
     {
-        return $"{_date} | {_activityName} | ({_time} min) - Distance: {GetDistance()} km, Speed: {GetSpeed()} kph, Pace: {GetPace()} min per km";
+        return $"{_date} | {_activityName} |  - Distance: {GetDistance()} km, Speed: {GetSpeed()} kph, Pace: {GetPace()} min per km";
     }
 }

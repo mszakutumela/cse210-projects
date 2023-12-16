@@ -19,14 +19,9 @@ class Program
         Swimming swimming = new("13 Oct 2023", 60, 10);
         activityList.Add(swimming);
 
-        Console.WriteLine("----- Activities -----");
+        Console.WriteLine("----- Activities -----")
         Console.WriteLine();
 
-        foreach (Activity activity in activityList)
-        {
-            // Remember to add () when you call a method
-            Console.WriteLine(activity.GetSummary()); 
-            Console.WriteLine();
-        }
+
     }
 }

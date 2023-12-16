@@ -12,13 +12,13 @@ public class Swimming : Activity
 
     public override double GetDistance()
     {
-        double distance = _pace * 50 / 1000;
+        double distance = _pace * 50 / 1000);
 
         return distance;        
     }
     public override double GetSpeed()
     {
-        double speed = GetDistance() / _time * 60;
+        double speed = GetDistance() / (_time * 60);
 
         return speed; 
     }         

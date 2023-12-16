@@ -24,7 +24,7 @@ class Program
 
         foreach (Activity activity in activityList)
         {
-            // Remember to add () when you call a method
+            
             Console.WriteLine(activity.GetSummary()); 
             Console.WriteLine();
         }

@@ -16,17 +16,8 @@ class Program
         StationaryBicycle bicycle = new("15 Dec 2023", 45, 20);
         activityList.Add(bicycle);
 
-        Swimming swimming = new("13 Oct 2023", 60, 10);
-        activityList.Add(swimming);
+        Swimming swimming = new("");
 
-        Console.WriteLine("----- Activities -----");
-        Console.WriteLine();
 
-        foreach (Activity activity in activityList)
-        {
-            // Remember to add () when you call a method
-            Console.WriteLine(activity.GetSummary()); 
-            Console.WriteLine();
-        }
     }
 }
