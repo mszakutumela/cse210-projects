@@ -1,0 +1,61 @@
+using System;
+
+public class Address
+{
+    protected string _street;
+    protected string _city;
+    protected string _province;
+    protected string _country;
+
+    public Address(string street, string city, string province, string country)
+    {
+        _street = street;
+        _city = city;
+        _province = province;
+        _country = country;
+    }
+
+    // public bool FromUSA()
+    // {
+    //     bool usa = true;
+    //     bool notUSA = false;
+    //     if (_country == "USA")
+    //     {
+    //         return usa;
+    //     }
+    //     else 
+    //         return notUSA; 
+    // }
+
+    public string GetCountry()
+    {
+        return _country;
+    }
+
+    public int GetShippingPrice()
+    {
+        int shippingCost;
+        string address = GetCountry();
+        if (address == "USA")
+        {
+            shippingCost = 5;
+        }
+        else
+        {
+            shippingCost = 35;
+        }
+
+        return _shippingCost;
+    }
+
+    // public void SetCountry()
+    // {
+    //     _country = country;
+    // }
+
+    public string GetAddress()
+    {
+        string address = ($"{_street}, {_city} \n{_province}, {_country}");
+        return address;
+    }
+}
