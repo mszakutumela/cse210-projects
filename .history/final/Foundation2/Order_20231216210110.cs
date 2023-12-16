@@ -79,7 +79,14 @@ public class Order
     {
         string totalPrice = "\nTotal Price: \n";
         double subtotal = CalculateSubtotalPrice();
-        int shippingCost = 5;
+        if (_country == "USA")
+        {
+            int shippingCost = 5;
+        }
+        else
+        {
+            int shippingCost = 35;
+        }
         double total = subtotal + shippingCost;
 
         // Console.WriteLine($"Subtotal Price: {subtotal}");

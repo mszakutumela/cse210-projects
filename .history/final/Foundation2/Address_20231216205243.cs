@@ -5,7 +5,7 @@ public class Address
     private string _street;
     private string _city;
     private string _province;
-    public string _country;
+    private string _country;
 
     public Address(string street, string city, string province, string country)
     {
@@ -32,21 +32,21 @@ public class Address
         return _country;
     }
     
-    public int GetShippingPrice()
-    {
-        int shippingCost;
-        string _country = GetCountry();
-        if (_country == "USA")
-        {
-            shippingCost = 5;
-        }
-        else
-        {
-            shippingCost = 35;
-        }
+    // public int GetShippingPrice()
+    // {
+    //     int shippingCost;
+    //     string address = GetCountry();
+    //     if (address == "USA")
+    //     {
+    //         shippingCost = 5;
+    //     }
+    //     else
+    //     {
+    //         shippingCost = 35;
+    //     }
 
-        return shippingCost;
-    }
+    //     return shippingCost;
+    // }
 
     // public void SetCountry()
     // {

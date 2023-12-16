@@ -5,7 +5,7 @@ public class Address
     private string _street;
     private string _city;
     private string _province;
-    public string _country;
+    pu string _country;
 
     public Address(string street, string city, string province, string country)
     {
@@ -35,8 +35,8 @@ public class Address
     public int GetShippingPrice()
     {
         int shippingCost;
-        string _country = GetCountry();
-        if (_country == "USA")
+        string address = GetCountry();
+        if (address == "USA")
         {
             shippingCost = 5;
         }

@@ -79,6 +79,7 @@ public class Order
     {
         string totalPrice = "\nTotal Price: \n";
         double subtotal = CalculateSubtotalPrice();
+        
         int shippingCost = 5;
         double total = subtotal + shippingCost;
 

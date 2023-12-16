@@ -35,8 +35,8 @@ public class Address
     public int GetShippingPrice()
     {
         int shippingCost;
-        string _country = GetCountry();
-        if (_country == "USA")
+        string  = GetCountry();
+        if (address == "USA")
         {
             shippingCost = 5;
         }

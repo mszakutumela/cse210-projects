@@ -4,8 +4,7 @@ public class Order
 {
     private Customer _customer;
     private List<Product> _products;
-    public string _country;
-
+    
 
     public Order(List<Product> products, Customer customer)
     {
@@ -79,7 +78,7 @@ public class Order
     {
         string totalPrice = "\nTotal Price: \n";
         double subtotal = CalculateSubtotalPrice();
-        int shippingCost = 5;
+        int shippingCost = GetShippingPrice();
         double total = subtotal + shippingCost;
 
         // Console.WriteLine($"Subtotal Price: {subtotal}");
