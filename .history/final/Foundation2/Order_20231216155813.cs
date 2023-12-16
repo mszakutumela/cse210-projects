@@ -59,13 +59,13 @@ public class Order
 
         foreach (Product product in _products)
         {
-           totalCost += $"{product.GetName()}: {product.GetProductId()} - ${product.GetPrice()} x {product.GetQuantity()} = {product.TotalPrice()}\n";
+           totalCost = $"{product.GetName()}: {product.GetProductId()} - ${product.GetPrice()} x {product.GetQuantity()} = {product.TotalPrice()}";
            
         }
 
-        // totalCost += "Shipping Cost: $" + GetShippingPrice() + "\n";
-        // totalCost += "Total: $" + CalculateTotalPrice();
-        return totalCost;
+        totalCost += "Shipping Cost: $" + GetShippingPrice() + "\n";
+        totalCost += "Total: $" + CalculateTotalPrice();
+
         
     }
 

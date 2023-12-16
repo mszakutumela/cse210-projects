@@ -59,7 +59,7 @@ public class Order
 
         foreach (Product product in _products)
         {
-           totalCost += $"{product.GetName()}: {product.GetProductId()} - ${product.GetPrice()} x {product.GetQuantity()} = {product.TotalPrice()}\n";
+           totalCost += $"{product.GetName()}: {product.GetProductId()} - ${product.GetPrice()} x {product.GetQuantity()} = {product.TotalPrice()} + ";
            
         }
 
